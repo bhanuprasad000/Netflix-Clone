@@ -1,0 +1,37 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  background-image: url("https://pbs.twimg.com/media/EUfal5DUUAEYIJO.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 440px;
+}
+.container {
+  background-image: url("https://static.seekingalpha.com/uploads/2018/7/47934305_15319650102083_rId4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 440px;
+}
+.row {
+  display: flex;
+  overflow-y: hidden;
+}
+
+.row > img {
+  margin: 8px;
+  transition: transform 0.5s;
+}
+
+.row > img:hover {
+  transform: scale(1.1);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
